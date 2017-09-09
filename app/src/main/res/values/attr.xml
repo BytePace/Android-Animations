@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgressBar">
+        <attr name="stroke_width" format="float" />
+        <attr name="stroke_color" format="float" />
+        <attr name="circle_radius" format="dimension" />
+        <attr name="current_angle" format="integer" />
+        <attr name="start_angle" format="integer" />
+        <attr name="end_angle" format="integer" />
+    </declare-styleable>
+</resources>

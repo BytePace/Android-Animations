@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contact_sync"
+            android:title="@string/contact_sync_by_ramonition" />
+        <item
+            android:id="@+id/nav_unlock"
+            android:title="@string/unlock" />
+        <item
+            android:id="@+id/nav_zoom_image"
+            android:title="@string/zoom_image" />
+        <item
+            android:id="@+id/nav_shake"
+            android:title="@string/shake_an_object" />
+        <item
+            android:id="@+id/nav_falling_objects"
+            android:title="@string/falling_objects" />
+        <item
+            android:id="@+id/nav_progress_bar"
+            android:title="@string/custom_progress_bar" />
+        <item android:title="@string/simple_animations">
+                <item
+                    android:id="@+id/nav_increase_square"
+                    android:title="@string/increase_square_size" />
+                <item
+                    android:id="@+id/nav_transition_square"
+                    android:title="@string/transition_square" />
+                <item
+                    android:id="@+id/nav_other_animations"
+                    android:title="@string/other_animations" />
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bytepace.myanimations.custom_view.ArcProgressBar android:id="@+id/progress_bar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:stroke_width="80"
+        app:circle_radius="250dp"
+        app:current_angle="360" />
+
+    <TextView android:id="@+id/tv_progress"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textSize="100sp"/>
+
+    <Button android:id="@+id/btn_start"
+        android:layout_below="@id/progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:text="@string/start" />
+
+</RelativeLayout>

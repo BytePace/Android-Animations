@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/violet"
+            android:transitionName="smallImage" />
+
+        <TextView
+            android:id="@+id/about1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Some Viola species are perennial plants, some are annual plants, and a few are small shrubs. A large number of species, varieties and cultivars are grown in gardens for their ornamental flowers." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rosa"
+            android:transitionName="smallImage" />
+
+        <TextView
+            android:id="@+id/about2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lilium"
+            android:transitionName="smallImage" />
+
+        <TextView
+            android:id="@+id/about3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lilium (members of which are true lilies) is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chamomile"
+            android:transitionName="smallImage" />
+
+        <TextView
+            android:id="@+id/about4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Popular uses of chamomile preparations include treating hay fever, inflammation, muscle spasms, menstrual disorders, insomnia, ulcers, gastrointestinal disorders, and hemorrhoids." />
+    </LinearLayout>
+
+</LinearLayout>
